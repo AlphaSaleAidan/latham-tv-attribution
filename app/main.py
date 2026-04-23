@@ -73,18 +73,16 @@ async def health():
     """Detailed health check."""
     from app.core.database import health_check
 
-    db_healthy = False
-    try:
-        db_healthy = health_check()
-    except Exception:
-        pass
+    db_result = health_check()
+    db_healthy = db_result.get("connected", False)
 
     return {
         "status": "healthy" if db_healthy else "degraded",
         "database": "connected" if db_healthy else "disconnected",
+        "db_error": db_result.get("error"),
         "environment": settings.app_env,
         "integrations": {
-            "google_trends": "available",  # Always available (no auth)
+            "google_trends": "available",
             "ga4": "configured" if settings.ga4_property_id else "not_configured",
             "search_console": "configured" if settings.gsc_site_url else "not_configured",
             "callrail": "configured" if settings.callrail_api_key else "not_configured",
