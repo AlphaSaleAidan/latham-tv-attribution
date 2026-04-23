@@ -1,0 +1,41 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Credentials
+credentials/
+*.json
+!package.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (uploaded CSVs etc)
+data/uploads/
+*.csv
+!tests/fixtures/*.csv
+
+# Reports output
+reports/output/

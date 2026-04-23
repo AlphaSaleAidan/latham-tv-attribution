@@ -1,0 +1,11 @@
+airing_timestamp,network,dma_code,dma_name,creative_id,creative_name,duration_seconds,estimated_impressions,spend,daypart,program_name
+2026-04-15 20:15:00,HGTV,501,New York,LATH-2026-SPRING-30A,Spring Dream Pool 30s,30,1250000,45000.00,Primetime,House Hunters
+2026-04-15 20:45:00,ESPN,803,Los Angeles,LATH-2026-SPRING-30A,Spring Dream Pool 30s,30,980000,38000.00,Primetime,SportsCenter
+2026-04-15 21:30:00,DIY Network,602,Chicago,LATH-2026-SPRING-15A,Spring Dream Pool 15s,15,320000,12000.00,Primetime,Yard Crashers
+2026-04-16 10:15:00,HGTV,504,Philadelphia,LATH-2026-FAMILY-30A,Family Fun Pool 30s,30,450000,18000.00,Daytime,Property Brothers
+2026-04-16 14:30:00,Food Network,506,Boston,LATH-2026-SPRING-30A,Spring Dream Pool 30s,30,280000,11000.00,Daytime,Diners Drive-Ins
+2026-04-16 20:00:00,ESPN,511,Washington DC,LATH-2026-FAMILY-30A,Family Fun Pool 30s,30,1100000,42000.00,Primetime,Monday Night Baseball
+2026-04-17 09:00:00,HGTV,524,Atlanta,LATH-2026-SPRING-15A,Spring Dream Pool 15s,15,380000,14000.00,Morning,Good Bones
+2026-04-17 19:45:00,NBC,753,Phoenix,LATH-2026-FAMILY-30A,Family Fun Pool 30s,30,890000,35000.00,Primetime,The Voice
+2026-04-17 21:15:00,HGTV,623,Dallas-Ft Worth,LATH-2026-LUXURY-30A,Luxury Fiberglass 30s,30,720000,28000.00,Primetime,Fixer Upper Reboot
+2026-04-18 11:00:00,DIY Network,618,Houston,LATH-2026-SPRING-30A,Spring Dream Pool 30s,30,210000,8500.00,Daytime,This Old House
